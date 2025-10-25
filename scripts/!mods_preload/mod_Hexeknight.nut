@@ -1,7 +1,7 @@
 ::Mod_hexeknight <- {
     ID = "mod_hexeknight",
     Name = "Hexeknight",
-    Version = "0.0.1",   
+    Version = "0.4.1",   
 };
 
 ::Mod_hexeknight.HooksMod <- ::Hooks.register(::Mod_hexeknight.ID, ::Mod_hexeknight.Version, ::Mod_hexeknight.Name)
