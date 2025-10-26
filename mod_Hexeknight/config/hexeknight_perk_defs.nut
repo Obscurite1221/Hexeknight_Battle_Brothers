@@ -2,6 +2,7 @@
 ::Legends.Perk.through_pain_power <- null;
 ::Legends.Perk.baleful_purpose <- null;
 ::Legends.Perk.thornward <- null;
+::Legends.Perk.summon_shadow <- null;
 ::Const.Perks.addPerkDefObjects([
     {
         ID = "perk.malevolent_aura",
@@ -41,4 +42,13 @@
         Icon = "ui/perks/perk_37.png",
         IconDisabled = "ui/perks/perk_37_sw.png",
         Const = "thornward"
+    },
+    {
+        ID = "perk.summon_shadow",
+        Script = "scripts/skills/perks/perk_summon_shadow",
+        Name = ::Const.Strings.PerkName.summon_shadow,
+        Tooltip = ::Const.Strings.PerkDescription.summon_shadow,
+        Icon = "ui/perks/perk_37.png",
+        IconDisabled = "ui/perks/perk_37_sw.png",
+        Const = "summon_shadow"
     }]);

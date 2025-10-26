@@ -57,7 +57,7 @@ this.thornward_skill <- this.inherit("scripts/skills/skill", {
 			{
 				id = 3,
 				type = "text",
-				text = this.getCostString() + "Current Magnitude:" + value + "%"
+				text = this.getCostString() + "Current Redirection Percentage: " + value + "%"
 			}
 		];
 

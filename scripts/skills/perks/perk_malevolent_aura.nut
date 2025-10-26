@@ -71,7 +71,7 @@ this.perk_malevolent_aura <- this.inherit("scripts/skills/skill", {
             hitInfo.BodyDamageMult = 1.0;
             hitInfo.FatalityChanceMult = 0.0;
             
-            this.Tactical.EventLog.log(this.Const.UI.getColorizedEntityName(this.getContainer().getActor()) + " reflected " + ((_damageHitpoints + _damageArmor) * (getBonus() * 0.01)) + " damage back to " + this.Const.UI.getColorizedEntityName(_attacker) + " due to their thorns Entity:" + _attacker.getID());
+            this.Tactical.EventLog.log(this.Const.UI.getColorizedEntityName(this.getContainer().getActor()) + " reflected " + ((_damageHitpoints + _damageArmor) * (getBonus() * 0.01)) + " damage back to " + this.Const.UI.getColorizedEntityName(_attacker) + " due to their thorns.");
 
             attacker.onDamageReceived(_attacker, null, hitInfo);
         }

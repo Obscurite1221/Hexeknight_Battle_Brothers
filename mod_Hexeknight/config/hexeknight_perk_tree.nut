@@ -15,7 +15,9 @@
         [
             ::Legends.Perk.thornward
         ],
-        [],
+        [
+            ::Legends.Perk.summon_shadow
+        ],
         [],
         []
     ]

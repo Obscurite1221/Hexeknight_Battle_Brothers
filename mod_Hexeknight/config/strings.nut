@@ -59,3 +59,14 @@ Take upon yourself the suffering of another and lash back at their aggressors wi
 • [color=%skill%]Thornward[/color] redirects a percentage equal to [color=%positive%]20%[/color] of the caster's Resolve.
 • Costs [color=%negative%]1[/color] AP and [color=%negative%]10[/color] Fatigue
 ");
+
+::Const.Strings.PerkName.summon_shadow <- "Summon Shadow";
+::Const.Strings.PerkDescription.summon_shadow <- ::Legends.tooltip(@"
+You flick a few drops of blood into the shadows around you, animating them into insubstantial yet dangerous forms.
+[color=%passive%][u]Passive:[/u][/color]
+• Unlocks the [color=%skill%]Summon Shadow[/color] skill, allowing you to summon up to two shadowy humanoids to assist you in combat.
+• Shadow puppets also possess [color=%skill%]Aura of Malevolence[/color], letting them reflect whatever damage fells them.
+• Shadow puppets grow more nimble and dangerous according to the caster's Resolve.
+• Each successive puppet summoned costs 3 more hitpoints than the last.
+• Costs [color=%negative%]3[/color] AP, [color=%negative%]30[/color] Fatigue, and [color=%negative%]variable[/color] Hitpoints.
+");
